@@ -4,10 +4,9 @@
     "\\.angular",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\home",
-    "\\src\\app\\members",
-    "\\src\\app\\members\\member"
+    "\\src\\app\\unrclass",
+    "\\src\\app\\unrclass\\member"
   ],
-  "SelectedNode": "\\src\\app\\members\\member\\member.component.ts",
+  "SelectedNode": "\\src\\app\\unrclass\\unrclass.component.ts",
   "PreviewInSolutionExplorer": false
 }

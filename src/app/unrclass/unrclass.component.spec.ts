@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MembersComponent } from './members.component';
+import { UNRClassComponent } from './unrclass.component';
 
-describe('MembersComponent', () => {
-  let component: MembersComponent;
-  let fixture: ComponentFixture<MembersComponent>;
+describe('UNRClassComponent', () => {
+  let component: UNRClassComponent;
+  let fixture: ComponentFixture<UNRClassComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [MembersComponent]
+      imports: [UNRClassComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(MembersComponent);
+    fixture = TestBed.createComponent(UNRClassComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
