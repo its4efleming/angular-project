@@ -6,12 +6,17 @@ import { unrClass } from '../../models/unr-class.model';
 @Component({
   selector: 'app-member-page',
   standalone: true,
-  imports: [],
+  imports: [UNRClassComponent],
   templateUrl: './member-page.component.html',
   styleUrl: './member-page.component.css'
 })
 export class MemberPageComponent {
-  constructor(private dataService: DataService) { }
+  data: any;
+;
+  constructor(private dataService: DataService) {
+    this.data = this.dataService.getData;
+    console.log(this.data)
+  }
   //data: any = this.dataService.dataOut();
-  classData: unrClass[] = this.dataService.classes;
+  //classData: unrClass[] = this.dataService.classes;
 }

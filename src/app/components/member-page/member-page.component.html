@@ -1,12 +1,5 @@
-<!-- @if(data){
-    @for(unrClass of data.getUnrClassData(); track unrClass){//getUnrClass
-
-    } -->
-<!-- <h1>{{Object.keys(data.members)}}</h1>
-    @for(className of data.members.Keys; track className){
-        console.log(className)
-        @for(student of data.members[className]; track student){
-<div>{{student.name}}</div>
-        }
-    } -->
-    <h1>{{classData}}</h1>
+@if(data){
+    @for(className of data.classes; track className){
+        <app-unrclass></app-unrclass>
+    }
+}

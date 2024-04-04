@@ -4,13 +4,13 @@
     "\\.angular",
     "\\src",
     "\\src\\app",
+    "\\src\\app\\assets",
     "\\src\\app\\components",
     "\\src\\app\\components\\member",
     "\\src\\app\\components\\member-page",
     "\\src\\app\\components\\unrclass",
-    "\\src\\app\\models",
     "\\src\\app\\services"
   ],
-  "SelectedNode": "\\src\\app\\services\\data.service.ts",
+  "SelectedNode": "\\src\\app\\components\\member-page\\member-page.component.html",
   "PreviewInSolutionExplorer": false
 }
