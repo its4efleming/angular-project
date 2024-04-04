@@ -1,18 +1,14 @@
 import { Component } from '@angular/core';
-import { MemberComponent } from './member/member.component';
-
-interface unrClass {
-  name: string;
-  members: MemberComponent<Member>[];
-}
+import { DataService } from '../../services/data.service';
+import { MemberComponent } from '../member/member.component';
+import { unrClass } from '../../models/unr-class.model';
 
 @Component({
   selector: 'app-unrclass',
   standalone: true,
-  imports: [],
+  imports: [MemberComponent],
   templateUrl: './unrclass.component.html',
   styleUrl: './unrclass.component.css'
 })
 export class UNRClassComponent {
-
 }

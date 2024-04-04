@@ -2,11 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\.angular",
-    "\\src",
     "\\src\\app",
-    "\\src\\app\\unrclass",
-    "\\src\\app\\unrclass\\member"
+    "\\src\\app\\components",
+    "\\src\\app\\components\\member",
+    "\\src\\app\\components\\member-page",
+    "\\src\\app\\components\\unrclass",
+    "\\src\\app\\models",
+    "\\src\\app\\services"
   ],
-  "SelectedNode": "\\src\\app\\unrclass\\unrclass.component.ts",
   "PreviewInSolutionExplorer": false
 }

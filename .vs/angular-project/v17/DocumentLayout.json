@@ -3,40 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\efleming\\angular-project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\efleming\\angular-project\\src\\app\\unrclass\\unrclass.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\unrclass\\unrclass.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\efleming\\angular-project\\src\\app\\services\\data.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\services\\data.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\efleming\\angular-project\\src\\app\\unrclass\\member\\member.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\unrclass\\member\\member.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\efleming\\angular-project\\src\\app\\components\\unrclass\\unrclass.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\unrclass\\unrclass.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\efleming\\angular-project\\src\\app\\unrclass\\unrclass.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\unrclass\\unrclass.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\efleming\\angular-project\\src\\app\\components\\member-page\\member-page.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\member-page\\member-page.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\efleming\\angular-project\\src\\app\\models\\unr-class.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\models\\unr-class.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\efleming\\angular-project\\src\\app\\models\\member.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\models\\member.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\efleming\\angular-project\\src\\app\\components\\member-page\\member-page.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\member-page\\member-page.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\efleming\\angular-project\\src\\app\\components\\unrclass\\unrclass.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\unrclass\\unrclass.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\efleming\\angular-project\\src\\app\\components\\unrclass\\unrclass.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\unrclass\\unrclass.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\efleming\\angular-project\\src\\app\\components\\member-page\\member-page.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\member-page\\member-page.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\efleming\\angular-project\\src\\app\\components\\member\\member.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\member\\member.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\efleming\\angular-project\\src\\app\\app.routes.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\app.routes.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\efleming\\angular-project\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\efleming\\angular-project\\src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\efleming\\angular-project\\src\\app\\data.service.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\data.service.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\efleming\\angular-project\\src\\app\\data.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\data.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\efleming\\angular-project\\src\\app\\unrclass\\member\\member.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\unrclass\\member\\member.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,116 +54,150 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "unrclass.component.ts",
-              "DocumentMoniker": "C:\\Users\\efleming\\angular-project\\src\\app\\unrclass\\unrclass.component.ts",
-              "RelativeDocumentMoniker": "src\\app\\unrclass\\unrclass.component.ts",
-              "ToolTip": "C:\\Users\\efleming\\angular-project\\src\\app\\unrclass\\unrclass.component.ts",
-              "RelativeToolTip": "src\\app\\unrclass\\unrclass.component.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAcAAAA",
+              "DocumentIndex": 4,
+              "Title": "member.model.ts",
+              "DocumentMoniker": "C:\\Users\\efleming\\angular-project\\src\\app\\models\\member.model.ts",
+              "RelativeDocumentMoniker": "src\\app\\models\\member.model.ts",
+              "ToolTip": "C:\\Users\\efleming\\angular-project\\src\\app\\models\\member.model.ts",
+              "RelativeToolTip": "src\\app\\models\\member.model.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-04-02T00:22:47.15Z",
+              "WhenOpened": "2024-04-04T01:42:02.112Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "app.component.html",
-              "DocumentMoniker": "C:\\Users\\efleming\\angular-project\\src\\app\\app.component.html",
-              "RelativeDocumentMoniker": "src\\app\\app.component.html",
-              "ToolTip": "C:\\Users\\efleming\\angular-project\\src\\app\\app.component.html",
-              "RelativeToolTip": "src\\app\\app.component.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-04-02T00:21:31.281Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "app.component.ts",
-              "DocumentMoniker": "C:\\Users\\efleming\\angular-project\\src\\app\\app.component.ts",
-              "RelativeDocumentMoniker": "src\\app\\app.component.ts",
-              "ToolTip": "C:\\Users\\efleming\\angular-project\\src\\app\\app.component.ts",
-              "RelativeToolTip": "src\\app\\app.component.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-04-02T00:20:52.706Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "data.service.spec.ts",
-              "DocumentMoniker": "C:\\Users\\efleming\\angular-project\\src\\app\\data.service.spec.ts",
-              "RelativeDocumentMoniker": "src\\app\\data.service.spec.ts",
-              "ToolTip": "C:\\Users\\efleming\\angular-project\\src\\app\\data.service.spec.ts",
-              "RelativeToolTip": "src\\app\\data.service.spec.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-04-02T00:20:50.086Z"
+              "Title": "unrclass.component.html",
+              "DocumentMoniker": "C:\\Users\\efleming\\angular-project\\src\\app\\components\\unrclass\\unrclass.component.html",
+              "RelativeDocumentMoniker": "src\\app\\components\\unrclass\\unrclass.component.html",
+              "ToolTip": "C:\\Users\\efleming\\angular-project\\src\\app\\components\\unrclass\\unrclass.component.html",
+              "RelativeToolTip": "src\\app\\components\\unrclass\\unrclass.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-04-04T01:21:20.22Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "data.service.ts",
-              "DocumentMoniker": "C:\\Users\\efleming\\angular-project\\src\\app\\data.service.ts",
-              "RelativeDocumentMoniker": "src\\app\\data.service.ts",
-              "ToolTip": "C:\\Users\\efleming\\angular-project\\src\\app\\data.service.ts",
-              "RelativeToolTip": "src\\app\\data.service.ts",
+              "Title": "unrclass.component.spec.ts",
+              "DocumentMoniker": "C:\\Users\\efleming\\angular-project\\src\\app\\components\\unrclass\\unrclass.component.spec.ts",
+              "RelativeDocumentMoniker": "src\\app\\components\\unrclass\\unrclass.component.spec.ts",
+              "ToolTip": "C:\\Users\\efleming\\angular-project\\src\\app\\components\\unrclass\\unrclass.component.spec.ts",
+              "RelativeToolTip": "src\\app\\components\\unrclass\\unrclass.component.spec.ts",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-04-02T00:20:48.315Z"
+              "WhenOpened": "2024-04-04T01:21:19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "member-page.component.spec.ts",
+              "DocumentMoniker": "C:\\Users\\efleming\\angular-project\\src\\app\\components\\member-page\\member-page.component.spec.ts",
+              "RelativeDocumentMoniker": "src\\app\\components\\member-page\\member-page.component.spec.ts",
+              "ToolTip": "C:\\Users\\efleming\\angular-project\\src\\app\\components\\member-page\\member-page.component.spec.ts",
+              "RelativeToolTip": "src\\app\\components\\member-page\\member-page.component.spec.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-04-04T00:56:46.769Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "unr-class.model.ts",
+              "DocumentMoniker": "C:\\Users\\efleming\\angular-project\\src\\app\\models\\unr-class.model.ts",
+              "RelativeDocumentMoniker": "src\\app\\models\\unr-class.model.ts",
+              "ToolTip": "C:\\Users\\efleming\\angular-project\\src\\app\\models\\unr-class.model.ts",
+              "RelativeToolTip": "src\\app\\models\\unr-class.model.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-04-04T00:08:12.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "unrclass.component.ts",
+              "DocumentMoniker": "C:\\Users\\efleming\\angular-project\\src\\app\\components\\unrclass\\unrclass.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\components\\unrclass\\unrclass.component.ts",
+              "ToolTip": "C:\\Users\\efleming\\angular-project\\src\\app\\components\\unrclass\\unrclass.component.ts",
+              "RelativeToolTip": "src\\app\\components\\unrclass\\unrclass.component.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-04-04T00:08:10.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "member-page.component.html",
+              "DocumentMoniker": "C:\\Users\\efleming\\angular-project\\src\\app\\components\\member-page\\member-page.component.html",
+              "RelativeDocumentMoniker": "src\\app\\components\\member-page\\member-page.component.html",
+              "ToolTip": "C:\\Users\\efleming\\angular-project\\src\\app\\components\\member-page\\member-page.component.html",
+              "RelativeToolTip": "src\\app\\components\\member-page\\member-page.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-04-03T23:49:36.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "member-page.component.ts",
+              "DocumentMoniker": "C:\\Users\\efleming\\angular-project\\src\\app\\components\\member-page\\member-page.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\components\\member-page\\member-page.component.ts",
+              "ToolTip": "C:\\Users\\efleming\\angular-project\\src\\app\\components\\member-page\\member-page.component.ts",
+              "RelativeToolTip": "src\\app\\components\\member-page\\member-page.component.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-04-03T23:42:00.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "app.routes.ts",
               "DocumentMoniker": "C:\\Users\\efleming\\angular-project\\src\\app\\app.routes.ts",
               "RelativeDocumentMoniker": "src\\app\\app.routes.ts",
               "ToolTip": "C:\\Users\\efleming\\angular-project\\src\\app\\app.routes.ts",
               "RelativeToolTip": "src\\app\\app.routes.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-04-02T00:20:47.47Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "unrclass.component.html",
-              "DocumentMoniker": "C:\\Users\\efleming\\angular-project\\src\\app\\unrclass\\unrclass.component.html",
-              "RelativeDocumentMoniker": "src\\app\\unrclass\\unrclass.component.html",
-              "ToolTip": "C:\\Users\\efleming\\angular-project\\src\\app\\unrclass\\unrclass.component.html",
-              "RelativeToolTip": "src\\app\\unrclass\\unrclass.component.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-04-02T00:20:08.937Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "member.component.ts",
-              "DocumentMoniker": "C:\\Users\\efleming\\angular-project\\src\\app\\unrclass\\member\\member.component.ts",
-              "RelativeDocumentMoniker": "src\\app\\unrclass\\member\\member.component.ts",
-              "ToolTip": "C:\\Users\\efleming\\angular-project\\src\\app\\unrclass\\member\\member.component.ts",
-              "RelativeToolTip": "src\\app\\unrclass\\member\\member.component.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-04-02T00:06:00.388Z"
+              "WhenOpened": "2024-04-03T21:42:18.798Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "member.component.html",
-              "DocumentMoniker": "C:\\Users\\efleming\\angular-project\\src\\app\\unrclass\\member\\member.component.html",
-              "RelativeDocumentMoniker": "src\\app\\unrclass\\member\\member.component.html",
-              "ToolTip": "C:\\Users\\efleming\\angular-project\\src\\app\\unrclass\\member\\member.component.html",
-              "RelativeToolTip": "src\\app\\unrclass\\member\\member.component.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-04-01T21:11:30.701Z"
+              "DocumentIndex": 0,
+              "Title": "data.service.ts",
+              "DocumentMoniker": "C:\\Users\\efleming\\angular-project\\src\\app\\services\\data.service.ts",
+              "RelativeDocumentMoniker": "src\\app\\services\\data.service.ts",
+              "ToolTip": "C:\\Users\\efleming\\angular-project\\src\\app\\services\\data.service.ts",
+              "RelativeToolTip": "src\\app\\services\\data.service.ts",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBgAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-04-03T21:39:30.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "member.component.ts",
+              "DocumentMoniker": "C:\\Users\\efleming\\angular-project\\src\\app\\components\\member\\member.component.ts",
+              "RelativeDocumentMoniker": "src\\app\\components\\member\\member.component.ts",
+              "ToolTip": "C:\\Users\\efleming\\angular-project\\src\\app\\components\\member\\member.component.ts",
+              "RelativeToolTip": "src\\app\\components\\member\\member.component.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-04-02T00:06:00.388Z",
+              "EditorCaption": ""
             }
           ]
         }
