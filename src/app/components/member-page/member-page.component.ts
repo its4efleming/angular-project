@@ -12,6 +12,6 @@ import { unrClass } from '../../models/unr-class.model';
 })
 export class MemberPageComponent {
   constructor(private dataService: DataService) { }
-  allData: any[] = this.dataService.loadData();
-
+  //data: any = this.dataService.dataOut();
+  classData: unrClass[] = this.dataService.classes;
 }

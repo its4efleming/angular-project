@@ -26,7 +26,6 @@ export class DataService {
   public get classes(): unrClass[] {
     return this.data.classes;
   }
-
   //page
   // foreach (unrClass in srv.classe s) {
   //   <UNRClass name="unrClass.name" />
