@@ -12,10 +12,15 @@ import { unrClass } from '../../models/unr-class.model';
 })
 export class MemberPageComponent {
   data: any;
+  classData: any;
 ;
-  constructor(private dataService: DataService) {
+  constructor(private dataService: DataService) {}
+
+  ngOnInit() {//flag isLoading; isloading = true -> false
     this.data = this.dataService.getData;
     console.log(this.data)
+    this.classData = this.dataService.getClasses;
+    console.log(this.classData)
   }
   //data: any = this.dataService.dataOut();
   //classData: unrClass[] = this.dataService.classes;

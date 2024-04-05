@@ -30,10 +30,10 @@ export class DataService {
     return this.data;
   }
 
-/*  public get getClasses() {
+  public get getClasses() {
     this.loadData();
     return this.data.classes;
-  }*/
+  }
   //page
   // foreach (unrClass in srv.classe s) {
   //   <UNRClass name="unrClass.name" />

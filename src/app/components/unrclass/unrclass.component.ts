@@ -10,5 +10,7 @@ import { unrClass } from '../../models/unr-class.model';
   templateUrl: './unrclass.component.html',
   styleUrl: './unrclass.component.css'
 })
-export class UNRClassComponent {
+export class UNRClassComponent {/*
+  name: string;
+  constructor{ private dataService: DataService }*/
 }
