@@ -1,6 +1,12 @@
 <div class="container">
-    <div class="card">
-       <h3>{{member?.name}}</h3>
-       <p>{{member?.email}}</p>
+    <div class="team_member card">
+        @if(member?.image){<div class="member_img"><img id="memberPic" src="{{member?.image}}" alt="our_team"><small id="photoCredit"></small></div>}
+        <h2 id="name" style="padding-top: 10px;">{{member?.name}}</h2>
+        <h3 id="major" style="padding-top: 0px;font-size: 18px;">{{member?.major}}</h3>
+        <div id="button-carousel" style="padding-top: 0px;">
+            @if(member?.email){<a href="mailto:{{member?.email}}"class="btn btn-primary" id="email" type="button" style="color: #fff;font-family: 'Raleway';width: 68.3516px;font-size: 13.333px;">Email</a>}
+            @if(member?.resume){<a href="{{member?.resume}}"class="btn btn-primary" id="resume" type="button" style="color: #fff;font-family: 'Raleway';width: 68.3516px;font-size: 13.333px;">Resume</a>}
+            @if(member?.linkedin){<a href="{{member?.linkedin}}" class="btn btn-primary" id="linkedin" type="button" style="color: #fff;font-family: 'Raleway';width: 68.3516px;font-size: 13.333px;">LinkedIn</a>}
+        </div>
     </div>
 </div>

@@ -1,7 +1,5 @@
 <div>
-    <ol>
-        @for(unrClass of classes; track unrClass.name){
-            <li><app-unrclass [name]="unrClass.name"></app-unrclass></li>
-        }
-    </ol>
+@for(unrClass of classes; track unrClass.name){
+    <app-unrclass [name]="unrClass.name"></app-unrclass>
+}
 </div>

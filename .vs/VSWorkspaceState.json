@@ -1,7 +1,6 @@
 {
   "ExpandedNodes": [
     "",
-    "\\.angular",
     "\\src",
     "\\src\\app",
     "\\src\\app\\assets",
@@ -9,8 +8,9 @@
     "\\src\\app\\components\\member",
     "\\src\\app\\components\\member-page",
     "\\src\\app\\components\\unrclass",
+    "\\src\\app\\models",
     "\\src\\app\\services"
   ],
-  "SelectedNode": "\\src\\app\\components\\member-page\\member-page.component.html",
+  "SelectedNode": "\\src\\app\\components\\member-page\\member-page.component.spec.ts",
   "PreviewInSolutionExplorer": false
 }

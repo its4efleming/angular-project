@@ -1,0 +1,143 @@
+.container {
+  display: flex;
+  justify-content: center;
+  grid-template-columns: repeat(6,1fr);
+  grid-auto-rows: 100px 300px;
+  grid-gap: 10px;
+  grid-auto-flow: dense;
+}
+
+.card {
+  height: 380px;
+  width: 350px;
+  padding: 20px 35px;
+  background-color: rgb(106, 5, 5);
+  border-radius: 20px;
+  text-align: center;
+  margin: 15px;
+  position: relative;
+  transition: .5s ease-in-out;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.card .tst {
+  position: relative;
+  /*position: absolute;*/
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.card:hover .tst {
+  opacity: 0;
+}
+
+.card .pra {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  width: 80%;
+}
+
+.card:hover .pra {
+  opacity: 1;
+}
+
+.card h1 {
+  font-size: 35px;
+  color: #fff;
+}
+.our_team {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.our_team .team_member {
+  width: 300px;
+  margin: 5px;
+  background: rgba(255,255,240,.3);
+  box-shadow: 0 4px 16px -8px black;
+  padding: 20px 10px;
+  border: #e6c462;
+  border-width: 5px;
+  /*height: 300px;*/
+  border-radius: 20px;
+  transition: transform .5s;
+}
+
+.our_team .team_member:hover {
+  transform: scale(1.05);
+  /*scale: 1.1;*/
+  /*transition: 500ms;*/
+}
+
+.our_team .team_member .member_img {
+  background: #212121;
+  max-width: 190px;
+  width: 100%;
+  height: 180px;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+.our_team .team_member .member_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.our_team .team_member h3 {
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  margin: 5px 0 0px;
+  color: #8d5050;
+}
+
+.our_team .team_member span {
+  font-size: 10px;
+}
+
+.our_team .team_member p {
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.our_team .team_member h2 {
+  font-size: 25px;
+  color: #8d5050;
+  padding: 0;
+  margin: 5px 0 0 0;
+}
+
+#button-carousel * {
+  margin-right: 7.5px;
+  border-radius: 10px;
+  border-color: #00000000;
+  /*border-bottom-color: #6a0505;*/
+  background-color: #6a0505;
+  margin-left: 7.5px;
+  cursor: pointer;
+}
+
+#button-carousel {
+  padding-top: 0px;
+  margin-top: 10px;
+}

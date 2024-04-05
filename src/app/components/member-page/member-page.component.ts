@@ -20,7 +20,7 @@ export class MemberPageComponent {
       this.data = data;
     });
     this.dataService.loadData();
-  }
+  } 
 
   public get classes() {
     return this.data?.classes ?? [];
