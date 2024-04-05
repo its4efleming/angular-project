@@ -1,7 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { DataService } from '../../services/data.service';
-import { UNRClassComponent } from '../unrclass/unrclass.component';
-import { unrClass } from '../../models/unr-class.model';
+import { Member } from '../../models/member.model';
 
 @Component({
   selector: 'app-member',
@@ -10,79 +9,17 @@ import { unrClass } from '../../models/unr-class.model';
   templateUrl: './member.component.html',
   styleUrl: './member.component.css'
 })
-export class MemberComponent {
-  /*
-  classData: unrClass[] = [
-    {
-      name: "Phi",
-      members: [
-        {
-          name: "Emerson Fleming",
-          major: "Computer Science",
-          position: "Tech Chair",
-          email: "efleming@nevada.unr.edu",
-          resume: "youtube.com",
-          image: "https://emerson-fleming.github.io/Images/emerson_fleming.jpeg",
-          linkedin: "https://www.linkedin.com/in/emersonfleming/"
-        },
-        {
-          name: "Emerson Fleming",
-          major: "Computer Science",
-          position: "Tech Chair",
-          email: "efleming@nevada.unr.edu",
-          resume: "youtube.com",
-          image: "https://emerson-fleming.github.io/Images/emerson_fleming.jpeg",
-          linkedin: "https://www.linkedin.com/in/emersonfleming/"
-        },
-        {
-          name: "Emerson Fleming",
-          major: "Computer Science",
-          position: "Tech Chair",
-          email: "efleming@nevada.unr.edu",
-          resume: "youtube.com",
-          image: "https://emerson-fleming.github.io/Images/emerson_fleming.jpeg",
-          linkedin: "https://www.linkedin.com/in/emersonfleming/"
-        },
-      ],
-    },
-    {
-      name: "Pho",
-      members: [
-        {
-          name: "Emerson Fleming",
-          major: "Computer Science",
-          position: "Tech Chair",
-          email: "efleming@nevada.unr.edu",
-          resume: "youtube.com",
-          image: "https://emerson-fleming.github.io/Images/emerson_fleming.jpeg",
-          linkedin: "https://www.linkedin.com/in/emersonfleming/"
-        },
-        {
-          name: "Emerson Fleming",
-          major: "Computer Science",
-          position: "Tech Chair",
-          email: "efleming@nevada.unr.edu",
-          resume: "youtube.com",
-          image: "https://emerson-fleming.github.io/Images/emerson_fleming.jpeg",
-          linkedin: "https://www.linkedin.com/in/emersonfleming/"
-        },
-        {
-          name: "Emerson Fleming",
-          major: "Computer Science",
-          position: "Tech Chair",
-          email: "efleming@nevada.unr.edu",
-          resume: "youtube.com",
-          image: "https://emerson-fleming.github.io/Images/emerson_fleming.jpeg",
-          linkedin: "https://www.linkedin.com/in/emersonfleming/"
-        },
-      ],
-    },
-  ];*/
-/*
+export class MemberComponent implements OnInit {
+  @Input() name: string | undefined;
+  @Input() className: string | undefined;
+  member: Member | undefined;
+
+  constructor(private dataService: DataService) {
+  }
+
   ngOnInit() {
-    this.service.getData().subscribe(data => {
-      this.memberData = Object.keys(data);
-      console.log(this.memberData)
-    })
-  }*/
+    if (this.name && this.className) {
+      this.member = this.dataService.getMemberData(this.name, this.className);
+    }
+  }
 }

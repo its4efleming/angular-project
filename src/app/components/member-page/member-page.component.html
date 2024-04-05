@@ -1,5 +1,12 @@
-@if(data){
-    @for(className of data.classes; track className){
-        <app-unrclass></app-unrclass>
+<div>
+    <ol>
+    @for(unrClass of classes; track unrClass.name){
+        <li><app-unrclass [name]="unrClass.name"></app-unrclass></li>
     }
-}
+    </ol>
+
+    <ol>
+        <li>1</li>
+        <li>2</li>
+    </ol>
+</div>

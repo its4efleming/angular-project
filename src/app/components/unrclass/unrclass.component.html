@@ -1,4 +1,8 @@
-<!-- @for(member of unrClass.members; track member){
-
-}
-<app-member></app-member> -->
+<div>
+  <h2>{{unrClass?.name}}</h2>
+  <ul>
+    @for(member of unrClass?.members; track member.name) {
+      <li><app-member [className]="name" [name]="member.name"></app-member></li>
+    }
+  </ul>
+</div>

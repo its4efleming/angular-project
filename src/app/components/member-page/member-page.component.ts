@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { DataService } from '../../services/data.service';
+import { Content, DataService } from '../../services/data.service';
 import { UNRClassComponent } from '../unrclass/unrclass.component';
 import { unrClass } from '../../models/unr-class.model';
 
@@ -11,12 +11,18 @@ import { unrClass } from '../../models/unr-class.model';
   styleUrl: './member-page.component.css'
 })
 export class MemberPageComponent {
-  data: any;
-;
+  data: Content | undefined;
   constructor(private dataService: DataService) {
-    this.data = this.dataService.getData;
-    console.log(this.data)
   }
-  //data: any = this.dataService.dataOut();
-  //classData: unrClass[] = this.dataService.classes;
+
+  ngOnInit() {
+    this.dataService.getDataStream.subscribe(data => {
+      this.data = data;
+    });
+    this.dataService.loadData();
+  }
+
+  public get classes() {
+    return this.data?.classes ?? [];
+  }
 }
