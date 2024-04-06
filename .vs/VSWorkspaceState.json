@@ -11,6 +11,6 @@
     "\\src\\app\\models",
     "\\src\\app\\services"
   ],
-  "SelectedNode": "\\src\\app\\components\\member-page\\member-page.component.spec.ts",
+  "SelectedNode": "\\src\\app\\components\\member\\member.component.html",
   "PreviewInSolutionExplorer": false
 }

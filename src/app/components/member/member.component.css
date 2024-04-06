@@ -26,7 +26,6 @@
 
 .card .tst {
   position: relative;
-  /*position: absolute;*/
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -128,12 +127,9 @@
 }
 
 #button-carousel * {
-  margin-right: 7.5px;
   border-radius: 10px;
   border-color: #00000000;
-  /*border-bottom-color: #6a0505;*/
   background-color: #6a0505;
-  margin-left: 7.5px;
   cursor: pointer;
 }
 
