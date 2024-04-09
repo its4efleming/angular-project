@@ -3,14 +3,14 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\assets",
     "\\src\\app\\components",
+    "\\src\\app\\components\\calendar",
+    "\\src\\app\\components\\filter-bar",
+    "\\src\\app\\components\\home",
     "\\src\\app\\components\\member",
     "\\src\\app\\components\\member-page",
-    "\\src\\app\\components\\unrclass",
-    "\\src\\app\\models",
-    "\\src\\app\\services"
+    "\\src\\app\\components\\unrclass"
   ],
-  "SelectedNode": "\\src\\app\\components\\member\\member.component.html",
+  "SelectedNode": "\\src\\app\\components\\filter-bar\\filter-bar.component.html",
   "PreviewInSolutionExplorer": false
 }

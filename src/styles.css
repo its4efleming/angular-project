@@ -6,6 +6,7 @@
 html, body {
   overflow-x: hidden;
   font-family: 'Raleway';
+  scroll-behavior:smooth;
 }
 
 body {
@@ -14,6 +15,8 @@ body {
   box-sizing: border-box;
   background-color: #FFF;
   font-family: 'Raleway';
+  background-size:cover;
+  background-attachment:fixed;
 }
 
 html, body { height: 100%; }

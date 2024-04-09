@@ -1,0 +1,7 @@
+<div id="filter-nav" class="px-[10%]" style="display:flex; flex-direction: row; justify-content:space-between;">
+    @for(unrClass of classes; track unrClass.name){
+    <a mat-button href = "/members/#{{unrClass.name}}"style="color:#fff; border-radius: 10px;border-color: #00000000;background-color: #6a0505;cursor: pointer;">
+        {{ unrClass.name }}
+    </a>
+    }
+</div>

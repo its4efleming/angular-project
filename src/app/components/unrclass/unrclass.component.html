@@ -1,6 +1,8 @@
-<div id="greek_class" class="wrapper" style="padding-bottom: 40px;">
+<section class="wrapper greek_class" style="padding-bottom: 40px; justify-content:center;">
     <h1 id="classHead" class="classHeading">{{unrClass?.name}}</h1>
-    @for(member of unrClass?.members; track member.name) {
+    <div id="member_grid" style="justify-content:center;">
+        @for(member of unrClass?.members; track member.name) {
         <app-member [className]="name" [name]="member.name"></app-member>
-    }
-</div>
+        }
+    </div>
+</section>

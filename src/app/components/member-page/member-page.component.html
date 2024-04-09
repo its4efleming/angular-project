@@ -1,5 +1,9 @@
-<div>
-@for(unrClass of classes; track unrClass.name){
-    <app-unrclass [name]="unrClass.name"></app-unrclass>
-}
+<div style="justify-content:center;">
+    <app-filter-bar></app-filter-bar>
+    @for(unrClass of classes; track unrClass.name){
+        <app-unrclass id="{{unrClass.name}}"[name]="unrClass.name"></app-unrclass>
+    }
+    <!-- @if(checkIfScrolledPastThreshold()){
+        <a mat-button>Click Me</a>
+    } -->
 </div>

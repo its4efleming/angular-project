@@ -1,0 +1,48 @@
+.card {
+  height: 380px;
+  width: 350px;
+  padding: 20px 35px;
+  background-color: rgb(106, 5, 5);
+  border-radius: 20px;
+  text-align: center;
+  margin: 15px;
+  position: relative;
+  transition: .5s ease-in-out;
+}
+
+  .card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+
+  .card .tst {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    transition: opacity 0.5s ease;
+  }
+
+  .card:hover .tst {
+    opacity: 0;
+  }
+
+  .card .pra {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    width: 80%;
+  }
+
+  .card:hover .pra {
+    opacity: 1;
+  }
+
+  .card h1 {
+    font-size: 35px;
+    color: #fff;
+  }

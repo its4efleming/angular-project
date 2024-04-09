@@ -15,3 +15,11 @@
     padding: 0;
     margin: 5px;
   }
+
+#member_grid {
+  width:auto;
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:10px;
+}
